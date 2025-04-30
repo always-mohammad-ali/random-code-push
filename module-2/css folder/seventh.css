@@ -1,0 +1,26 @@
+.header{
+    background-image: url('../images/ishowspeed.jpg');
+    background-repeat: repeat;
+    background-position-y: 1000px;
+    background-size: 1000px;
+    background-size: cover;
+}
+
+.blog{
+    background-color: burlywood;
+    margin: 10px;
+    border: 10px slateblue dotted;
+    box-shadow: 10px 20px 20px rgb(137, 190, 231);
+}
+/* .hide{
+    /* display: none; */
+    /* visibility: hidden; */
+ */
+.porro{
+    margin: 50px;
+    padding: 10px;
+    color: aqua;
+    background-color: brown;
+    display: inline-block;
+}
+
