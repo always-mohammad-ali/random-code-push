@@ -5,6 +5,11 @@
     display: flex;
     gap: 20px;
     justify-content: space-evenly;
+    height: 500px;
+    align-items:center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
 }
 .child{
    
