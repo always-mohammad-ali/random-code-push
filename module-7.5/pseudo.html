@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo style</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        h3:hover{
+            background-color: aqua;
+            border-radius: 50px;
+            width: 30%;
+            padding: 30px;
+            text-align: center;
+            border: solid 1px black;
+
+        }
+
+        a:visited{
+            color: aqua;
+            background-color: blue;
+            border: solid red 2px;
+        }
+
+        input:focus{
+            background-color: aqua;
+            border: solid 3px red;
+            padding: 30px;
+        }
+
+        /* li:last-child{
+            /* border: solid 3px greenyellow; */
+        */
+        li:nth-child(2n){
+           color: blueviolet;
+           background-color: brown;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h3>I am going to do hover.</h3>
+
+    <a href="https://chat.openai.com/" target="_blank">google</a>
+    <a href="https://chat.openai.com/" target="_blank">boggle</a>
+
+    <ul>
+        <li>ali</li>
+        <li>kali</li>
+        <li>sali</li>
+    </ul>
+
+    <input type="button" value="submit">
+    <input type="text" name="hey" id="">
+</body>
+</html>
